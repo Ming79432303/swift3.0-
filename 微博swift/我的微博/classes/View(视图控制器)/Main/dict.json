@@ -1,0 +1,37 @@
+[
+  {
+    "className" : "LGHomeViewController",
+    "title" : "首页",
+    "imageName" : "home",
+    "visitor" : {
+      "imageName" : "",
+      "message" : ""
+    }
+  },
+  {
+    "className" : "LGMessageViewController",
+    "title" : "消息",
+    "imageName" : "message_center",
+    "visitor" : {
+      "imageName" : "visitordiscover_image_message",
+      "message" : "登陆后，别人评论你的微博，给你发消息，都会在这里收到通知"
+    }
+  },
+  {
+    "claname" : "viewController"
+  },
+  {
+    "imageName" : "discover",
+    "className" : "LGDiscoverViewController",
+    "title" : "发现"
+  },
+  {
+    "className" : "LGProfileViewController",
+    "title" : "我",
+    "imageName" : "profile",
+    "visitor" : {
+      "imageName" : "visitordiscover_image_profile",
+      "message" : "登陆后，你就可以展示你的相册"
+    }
+  }
+]

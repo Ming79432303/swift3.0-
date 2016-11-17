@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBComposeViewController" customModule="我的微博" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomOffset" destination="LY1-vD-BnI" id="K6K-k1-2yM"/>
+                <outlet property="textView" destination="z3u-TW-9ip" id="QBQ-Dr-dg6"/>
+                <outlet property="tooBar" destination="9RJ-j8-gdy" id="HgZ-br-5l9"/>
+                <outlet property="userLabel" destination="dpj-pB-jCA" id="nJE-MY-sWL"/>
+                <outlet property="view" destination="dnx-yY-R0C" id="G9d-eC-pJU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dnx-yY-R0C">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-j8-gdy">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Frn-rG-Q6D"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem title="Item" id="71y-Yj-TWv"/>
+                    </items>
+                </toolbar>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z3u-TW-9ip" customClass="LGTextView" customModule="我的微博" customModuleProvider="target">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9RJ-j8-gdy" secondAttribute="trailing" id="KT2-BE-7vR"/>
+                <constraint firstAttribute="bottom" secondItem="9RJ-j8-gdy" secondAttribute="bottom" id="LY1-vD-BnI"/>
+                <constraint firstItem="9RJ-j8-gdy" firstAttribute="top" secondItem="z3u-TW-9ip" secondAttribute="bottom" id="YOg-F2-WNY"/>
+                <constraint firstItem="z3u-TW-9ip" firstAttribute="top" secondItem="dnx-yY-R0C" secondAttribute="top" id="l1S-b5-O4S"/>
+                <constraint firstAttribute="trailing" secondItem="z3u-TW-9ip" secondAttribute="trailing" id="obM-aK-7Fe"/>
+                <constraint firstItem="9RJ-j8-gdy" firstAttribute="leading" secondItem="dnx-yY-R0C" secondAttribute="leading" id="zFf-DC-EKc"/>
+                <constraint firstItem="z3u-TW-9ip" firstAttribute="leading" secondItem="dnx-yY-R0C" secondAttribute="leading" id="zNA-mo-8nh"/>
+            </constraints>
+            <point key="canvasLocation" x="-304" y="-332"/>
+        </view>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dpj-pB-jCA">
+            <rect key="frame" x="0.0" y="0.0" width="181" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <attributedString key="attributedText">
+                <fragment>
+                    <string key="content">发送微博
+</string>
+                    <attributes>
+                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                            <tabStops>
+                                <textTab alignment="left" location="28">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="56">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="84">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="112">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="140">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="168">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="196">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="224">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="252">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="280">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="308">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="336">
+                                    <options/>
+                                </textTab>
+                            </tabStops>
+                        </paragraphStyle>
+                    </attributes>
+                </fragment>
+                <fragment content="  ">
+                    <attributes>
+                        <font key="NSFont" size="3" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                            <tabStops>
+                                <textTab alignment="left" location="28">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="56">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="84">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="112">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="140">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="168">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="196">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="224">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="252">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="280">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="308">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="336">
+                                    <options/>
+                                </textTab>
+                            </tabStops>
+                        </paragraphStyle>
+                    </attributes>
+                </fragment>
+                <fragment>
+                    <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                    <attributes>
+                        <font key="NSFont" size="14" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                            <tabStops>
+                                <textTab alignment="left" location="28">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="56">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="84">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="112">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="140">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="168">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="196">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="224">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="252">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="280">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="308">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="336">
+                                    <options/>
+                                </textTab>
+                            </tabStops>
+                        </paragraphStyle>
+                    </attributes>
+                </fragment>
+                <fragment content="夕阳Lgming">
+                    <attributes>
+                        <color key="NSColor" red="0.46646634615384619" green="0.46646634615384619" blue="0.46646634615384619" alpha="1" colorSpace="calibratedRGB"/>
+                        <font key="NSFont" size="11" name=".PingFangSC-Regular"/>
+                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                            <tabStops>
+                                <textTab alignment="left" location="28">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="56">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="84">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="112">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="140">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="168">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="196">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="224">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="252">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="280">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="308">
+                                    <options/>
+                                </textTab>
+                                <textTab alignment="left" location="336">
+                                    <options/>
+                                </textTab>
+                            </tabStops>
+                        </paragraphStyle>
+                    </attributes>
+                </fragment>
+            </attributedString>
+            <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+            <point key="canvasLocation" x="-623" y="-518"/>
+        </label>
+    </objects>
+</document>
